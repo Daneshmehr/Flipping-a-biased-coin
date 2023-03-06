@@ -1,6 +1,6 @@
 # Project-2
 Project 1 had a simply fixed values.
-For example, given two integers N and R. The task was to calculate the probability of getting exactly r heads in n successive tosses. 
+Given two integers N and R. The task was to calculate the probability of getting exactly r heads in n successive tosses. 
 A fair coin has an equal probability of landing a head or a tail on each toss.
 The probability of getting K heads in N coin tosses can be calculated using the below formula of binomial distribution of probability: 
 [^{n}C_{k} * p^{k} * q^{n-k}]   where p = probability of getting head and q = probability of getting tail. p and q both are 1/2. So the equation becomes
@@ -31,8 +31,6 @@ r = 3
 print (count_heads(n, r))
 
 For project 2, the binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments. It takes different values in coin tosses which it has not simply fixed values.
-We know form Bayesian statistics, Posterior = Likelihood × Prior ÷ Evidence.
+We know that Bayesian statistics, Posterior = Likelihood × Prior ÷ Evidence.
 
-Python 3 computes analytical expression for the posterior in our experiment (coin tosses).
-
-Python3 computes it and plot the results.
+Python 3 computes analytical expression for the posterior in our experiment (coin tosses)and plots the results.
