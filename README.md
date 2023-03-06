@@ -31,5 +31,8 @@ r = 3
 print (count_heads(n, r))
 
 For project 2, the binomial distribution with parameters n and p is the discrete probability distribution of the number of successes in a sequence of n independent experiments. It takes different values in coin tosses which it has not simply fixed values.
+We know form Bayesian statistics, Posterior = Likelihood × Prior ÷ Evidence.
+
+Python 3 computes analytical expression for the posterior in our experiment (coin tosses).
 
 Python3 computes it and plot the results.
