@@ -4,6 +4,7 @@ import sys
 import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
+
 theta_real = 0.35
 trials = [0, 1, 2, 3, 4, 8, 16, 32, 50, 150]
 data = [0, 1, 1, 1, 1, 4, 6, 9, 13, 48]
