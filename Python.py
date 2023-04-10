@@ -31,4 +31,4 @@ for idx, N in enumerate(trials):
     plt.xlabel(r'$\theta$') 
     plt.legend()
     plt.gca().axes.get_yaxis().set_visible(False)
-plt.tight_layout()
+    plt.tight_layout()
