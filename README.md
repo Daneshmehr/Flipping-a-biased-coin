@@ -1,4 +1,4 @@
-# Project-2
+# Project 2
 Project 1 had a simply fixed values.
 Given two integers N and R. The task was to calculate the probability of getting exactly r heads in n successive tosses. 
 A fair coin has an equal probability of landing a head or a tail on each toss.
