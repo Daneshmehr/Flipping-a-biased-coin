@@ -6,7 +6,7 @@ The probability of getting K heads in N coin tosses can be calculated using the 
 [^{n}C_{k} * p^{k} * q^{n-k}]   where p = probability of getting head and q = probability of getting tail. p and q both are 1/2. So the equation becomes
 [\frac{1}{2^n} * \frac{n!}{ r! * (n-r)!}]  
 
-# Python3 program to find probability of getting K heads in N coin tosses
+# Python 3 program to find probability of getting K heads in N coin tosses
  
 # Function to calculate factorial
 def fact(n):
